@@ -42,10 +42,10 @@ sudo cp nginx.conf /etc/nginx/nginx.conf
 sudo chown root:root /etc/nginx/nginx.conf
 sudo chmod 0644 /etc/nginx/nginx.conf
 
-echo "Replacing /etc/nginx/conf.d/default.conf file..."
-sudo cp default.conf /etc/nginx/conf.d/default.conf
-sudo chown root:root /etc/nginx/conf.d/default.conf
-sudo chmod 0644 /etc/nginx/conf.d/default.conf
+#echo "Replacing /etc/nginx/conf.d/default.conf file..."
+#sudo cp default.conf /etc/nginx/conf.d/default.conf
+#sudo chown root:root /etc/nginx/conf.d/default.conf
+#sudo chmod 0644 /etc/nginx/conf.d/default.conf
 
 echo "Replacing /etc/nginx/conf.d/proxy.conf file..."
 sudo cp proxy.conf /etc/nginx/conf.d/proxy.conf
